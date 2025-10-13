@@ -1,0 +1,30 @@
+# ===== macOS特有 =====
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# サムネイルやメタデータ
+._*
+.Spotlight-V100
+.Trashes
+
+# ボリューム情報
+.VolumeIcon.icns
+.AppleDesktop
+
+# ===== エディタ =====
+.vscode/
+.history/
+
+# ===== 一時ファイル =====*.swp
+*.swo
+*.tmp
+*.log
+
+# ===== Node.js／Python系（将来的に使う場合） =====
+node_modules/
+__pycache__/
+
+# ===== 環境変数や設定ファイル =====
+.env
+.env.local
